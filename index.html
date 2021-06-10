@@ -40,7 +40,7 @@
             <h2>Des outils adaptés pour gérer votre association et organiser son fonctionnement</h2>
 
             <div class="features-description">
-                <a id="membres" href="javascript:void(0)" onclick="openTab(event, 'Gestiondesadhérents', 'membres');">
+                <a id="membres" href="javascript:void(0)" onclick="openTab(event, 'Gestiondesadhérents', 'membres');" class="active">
                     <img src="icons/people.png" alt="">
                     <div class="tablink">Gestion des adhérents</div>
                 </a>
@@ -58,7 +58,7 @@
                 </a>
             </div>
 
-            <div id="Gestiondesadhérents" class="tab" style="display:none;">
+            <div id="Gestiondesadhérents" class="tab" style="display: flex;">
                 <div>
                     <img src="icons/people.png" alt="">
                 </div>
@@ -187,7 +187,7 @@
                 <div class="newsletter-form">
                     <div class="newsletter-button"><input id="email" name="subscriber_email" type="email"
                             placeholder="Votre adresse e-mail" />
-                        <button type="submit">Je m'inscris à la newsletter</button>
+                        <a class="button" href="mailto:hello@hallinto.com">Je m'inscris à la newsletter</a>
                     </div>
             </form>
         </div>

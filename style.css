@@ -314,7 +314,7 @@ body {
     box-shadow: 0 0 15px #A6B0BF;
 }
 
-.newsletter button {
+.newsletter .button {
     border: #CF7255 2px solid;
     font-size: 24px;
     font-family: 'Quicksand';
@@ -324,6 +324,7 @@ body {
     box-shadow: none;
     margin-left: -5px;
     padding: 10px 19px;
+    text-decoration:none;
 }
 
 /* footer */
