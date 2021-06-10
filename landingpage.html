@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icons/favicon.ico" />
+    <title>Welcome to Hallinto</title>
+</head>
+
+<body>
+    <div id="content">
+        <div class="nav">
+            <div class="logonav">
+                <img src="images/hallinto-logo.png" alt="Hallinto logo in orange">
+            </div>
+            <div class="menunav">
+                <a href="#features">Fonctionnalités</a>
+                <a href="#tarif">Tarifs</a>
+                <a href="#about">A propos</a>
+                <a href="http://hallinto.hannahwford.com/Hallinto/">Se connecter</a>
+                <a href="/signup">S'inscrire</a>
+            </div>
+        </div>
+        <div class="header">
+            <div class="header-left">
+                <div class="vertical-align">
+                    <h1>Hallinto, l’<b>application de gestion idéale</b> pour chaque asso.</h1>
+                    <div class="header-button">
+                        <a class="cta" href="/login">Je m'inscris gratuitement</a>
+                    </div>
+                </div>
+            </div>
+            <div class="header-right">
+                <img src="images/orange.svg" alt="">
+            </div>
+        </div>
+        <div class="features" id="features">
+            <h2>Des outils adaptés pour gérer votre association et organiser son fonctionnement</h2>
+
+            <div class="features-description">
+                <a id="membres" href="javascript:void(0)" onclick="openTab(event, 'Gestiondesadhérents', 'membres');">
+                    <img src="icons/people.png" alt="">
+                    <div class="tablink">Gestion des adhérents</div>
+                </a>
+                <a id="events" href="javascript:void(0)" onclick="openTab(event, 'Gestiondesevents', 'events');">
+                    <img src="icons/calendar-dates.png" alt="">
+                    <div class="tablink">Gestion des events</div>
+                </a>
+                <a id="compta" href="javascript:void(0)" onclick="openTab(event, 'Gestioncomptable', 'compta');">
+                    <img src="icons/euro_symbol_24px.png" alt="">
+                    <div class="tablink">Gestion comptable</div>
+                </a>
+                <a id="admin" href="javascript:void(0)" onclick="openTab(event, 'Aideadministrative', 'admin');">
+                    <img src="icons/file-text.png" alt="">
+                    <div class="tablink">Aide administrative</div>
+                </a>
+            </div>
+
+            <div id="Gestiondesadhérents" class="tab" style="display:none;">
+                <div>
+                    <img src="icons/people.png" alt="">
+                </div>
+                <div>
+                    <h3>Gestion des adhérents</h3>
+                    <p>Nous mettons à votre disposition cet outil de gestion qui vous permet de gérer vos membres
+                        (éditer
+                        les informations basiques, renseigner des informations spécifiques, effectuer des actions de
+                        masse).
+                    </p>
+                </div>
+            </div>
+
+            <div id="Gestiondesevents" class="tab" style="display:none">
+                <div>
+                    <img src="icons/calendar-dates.png" alt="">
+                </div>
+                <div>
+                    <h3>Gestion des events</h3>
+                    <p>Nous mettons à votre disposition cet outil de gestion qui vous permet de gérer vos membres
+                        (éditer
+                        les informations basiques, renseigner des informations spécifiques, effectuer des actions de
+                        masse).
+                    </p>
+                </div>
+            </div>
+
+            <div id="Gestioncomptable" class="tab" style="display:none">
+                <div>
+                    <img src="icons/euro_symbol_24px.png" alt="">
+                </div>
+                <div>
+                    <h3>Gestion comptable</h3>
+                    <p>Nous mettons à votre disposition cet outil de gestion qui vous permet de gérer vos membres
+                        (éditer
+                        les informations basiques, renseigner des informations spécifiques, effectuer des actions de
+                        masse).
+                    </p>
+                </div>
+            </div>
+            <div id="Aideadministrative" class="tab" style="display:none">
+                <div>
+                    <img src="icons/file-text.png" alt="">
+                </div>
+                <div>
+                    <h3>Aide administrative</h3>
+                    <p>Nous mettons à votre disposition cet outil de gestion qui vous permet de gérer vos membres
+                        (éditer
+                        les informations basiques, renseigner des informations spécifiques, effectuer des actions de
+                        masse).
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="pricing" id="tarif">
+            <h2 class="orange">Choisissez l'offre la plus adaptée pour répondre à vous besoins</h2>
+            <div class="formules">
+                <div class="orange">
+                    <h2 class="orange">Pieni</h2>
+                    <h3>5€/mois</h3>
+                    <p>Gérez jusqu'à 25 membres</p>
+                </div>
+                <div class="violet">
+                    <h2>Tapa</h2>
+                    <h3>20€/mois</h3>
+                    <p>Gérez jusqu'à 100 membres</p>
+                </div>
+                <div class="orange">
+                    <h2>Pitka</h2>
+                    <h3>Sur mesure</h3>
+                    <p>A partir de 100 membres</p>
+                </div>
+            </div>
+            <p class="bottom-text">Bénéficiez de 5% de réduction en parrainant une association, ou du tarif spécial
+                association étudiante qui vous offre 10% de réduction. Offres non cumulables.</p>
+            <div>
+                <a class="cta" href="/signin">Essayer Hallinto</a>
+            </div>
+
+        </div>
+        <div class="about" id="about">
+            <h2>Une équipe jeune et dynamique</h2>
+            <div class="team">
+                <div>
+                    <img src="images/alexis.png" alt="">
+                    <h3>Alexis</h3>
+                    <p>Développeur</p>
+                </div>
+                <div>
+                    <img src="images/amelie.png" alt="">
+                    <h3>Amélie</h3>
+                    <p>Webdesigner</p>
+                </div>
+                <div>
+                    <img src="images/antoine.png" alt="">
+                    <h3>Antoine</h3>
+                    <p>Marketing</p>
+                </div>
+            </div>
+            <div class="team">
+                <div>
+                    <img src="images/hannah.png" alt="">
+                    <h3>Hannah</h3>
+                    <p>Développeur</p>
+                </div>
+                <div>
+                    <img src="images/thoma.png" alt="">
+                    <h3>Thoma</h3>
+                    <p>Webdesigner</p>
+                </div>
+                <div>
+                    <img src="images/wendy.png" alt="">
+                    <h3>Wendy</h3>
+                    <p>Marketing</p>
+                </div>
+            </div>
+        </div>
+        <div class="newsletter">
+            <hr>
+            <h2>Restez informés des dernières nouvelles</h2>
+            <form action="/leads-subscribing-newsletter" method="post">
+                <div class="newsletter-form">
+                    <div class="newsletter-button"><input id="email" name="subscriber_email" type="email"
+                            placeholder="Votre adresse e-mail" />
+                        <button type="submit">Je m'inscris à la newsletter</button>
+                    </div>
+            </form>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <div class="footer-block">
+            <img src="images/hallinto-logo.png" alt="Hallinto logo in orange">
+        </div>
+        <div class="footer-block">
+            <h3>Découvrir Hallinto</h3>
+            <a href="#features">Fonctionnalités</a>
+            <a href="#tarif">Tarif</a>
+            <a href="#about">A propos</a>
+            <a href="http://hallinto.hannahwford.com/Hallinto/">Se connecter</a>
+            <a href="/signup">S'inscrire</a>
+        </div>
+        <div class="footer-block">
+            <h3>informations</h3>
+            <a href="#">CGU Utilisateur</a>
+            <a href="#">CGU Association</a>
+            <a href="#">Mentions légales</a>
+            <a href="#">Confidentialités</a>
+        </div>
+        <div class="footer-block">
+            <h3>Suivez-nous</h3>
+            <a href="#">Newsletter</a>
+            <div class="social-media">
+                <a href="#"><img src="icons/facebook.png" alt=""></a>
+                <a href="#"><img src="icons/twitter.png" alt=""></a>
+                <a href="#"><img src="icons/instagram.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        function openTab(evt, tabName, item) {
+            var i, x, tablinks;
+            x = document.getElementsByClassName("tab");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < x.length; i++) {
+                document.getElementById(tabName).style.display = "flex";
+            }
+            document.getElementById(tabName).style.display = "flex";
+
+            document.getElementById('membres').classList.remove("active");
+            document.getElementById('events').classList.remove("active");
+            document.getElementById('compta').classList.remove("active");
+            document.getElementById('admin').classList.remove("active");
+
+            document.getElementById(item).classList.add("active");
+        }
+    </script>
+</body>
+
+</html>
